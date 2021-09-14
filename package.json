@@ -1,0 +1,22 @@
+{
+  "name": "budget_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",  "homepage": "http://Miroclav.github.io/budget_calculator",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miroclav/budget_calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miroclav/budget_calculator/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
