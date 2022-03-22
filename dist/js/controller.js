@@ -7,8 +7,8 @@ var controller = (function(modelCtrl, uiCtrl) {
     }
 
     //Функция,срабатывающая при добавлении расхода/дохода
-    function ctrlAddItem() {
-        event.preventDefault();
+    function ctrlAddItem(e) {
+        e.preventDefault();
 
         // Получить данные из формы
         var input = uiCtrl.getInput();
